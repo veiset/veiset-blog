@@ -1,8 +1,8 @@
 # Introduction
 Something something
 
-Prøv å unngå indeker der det ikke er nødvendig
-----------------------------------------------
+Prøv å unngå indekser
+---------------------
 
 ```python
 verdier = [5,3,99,10]
