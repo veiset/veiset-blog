@@ -1,3 +1,4 @@
+```python
 verdier = [5,3,99,10]
 for verdi in verdier:
     print(verdi)
@@ -5,9 +6,10 @@ for verdi in verdier:
 liste = [5,3,99,10]
 for i in range(len(liste)):
     print(liste[i])
-
+```
 
 # Hva som skal kommenteres, hvordan.
+```python
 def metode(argument):
     ''' Metode something something argument something '''
 
@@ -17,22 +19,30 @@ def metode(argument):
     med tekst. Forklar litt om hva som helst. Gjør
     følgende ting. Og returnerer denne verdien.
     '''
+```
 
+```python
 def circleAreal(r):
     print(3.1415*r**2)
+```
 
+```python
 def circleAreal(r):
     pi = 3.1415
     print(pi*r**2)
+```
 
-
+```python
 if condition == True:
 if condition:
+```
 
+```python
 if condition != True:
 if not condition:
+```
 
-
+```python
 if value > second_value and value != third_value and second_value > third_value:
     print("Something here!")
     ...
@@ -42,9 +52,9 @@ if (value > second_value and
     second_value > third_value):
     print("Something here!")
     ...
+```
 
-
-
+```python
 #Clarity is key. Større kode-eksempel
 if person == "student" and person == "awesome":
     if age > 70:
@@ -68,5 +78,5 @@ if ((a>5) and (b>10)):
 
 if a>5 and b>10:
     print("hello")
-
+```
 
