@@ -1,8 +1,8 @@
 # Introduction
 Store deler av denne artikkelen baserer seg på [PEP8 - Style Guide for Python Code](http://www.python.org/dev/peps/pep-0008/).
 
-Prøv å unngå indeker der det ikke er nødvendig
-----------------------------------------------
+Prøv å unngå indekser
+---------------------
 
 ```python
 verdier = [5,3,99,10]
