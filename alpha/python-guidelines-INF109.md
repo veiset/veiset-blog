@@ -1,4 +1,8 @@
-# Prøv å unngå indeker der det ikke er nødvendig
+# Introduction
+Something something
+
+Prøv å unngå indeker der det ikke er nødvendig
+----------------------------------------------
 
 ```python
 verdier = [5,3,99,10]
@@ -10,7 +14,8 @@ for i in range(len(liste)):
     print(liste[i])
 ```
 
-# Metode dokumentasjon (docstrings)
+Metode dokumentasjon (docstrings)
+---------------------------------
 En grundig forklaring finnes på python sine [hjemmesider](http://www.python.org/dev/peps/pep-0257/) ...
 
 ```python
@@ -25,7 +30,8 @@ def metode(argument):
     '''
 ```
 
-# Bruk konstanter med fornuftig navn
+Bruk konstanter med fornuftig navn
+----------------------------------
 
 ```python
 def circleAreal(r):
@@ -38,7 +44,8 @@ def circleAreal(r):
     print(pi*r**2)
 ```
 
-# True er implisitt, og 'not' er fint.
+True er implisitt, og 'not' er fint
+-----------------------------------
 
 ```python
 if condition == True:
@@ -50,7 +57,8 @@ if condition:
 if not condition:
 ```
 
-# Something something om nesting
+Something something om nesting
+------------------------------
 
 ```python
 if value > second_value and value != third_value and second_value > third_value:
@@ -65,7 +73,9 @@ if (value > second_value and
 ```
 
 
-# Litt større kode-eksempel. Clarity is key.
+Litt større kode-eksempel. Clarity is key
+-----------------------------------------
+
 ```python
 if person == "student" and person == "awesome":
     if age > 70:
@@ -83,7 +93,8 @@ if isStudent(person) and isAwesome(student):
 if isStudent(person): print("Welcome")
 
 
-# Parentheses are not always needed:
+Parentheses are not always needed
+---------------------------------
 if ((a>5) and (b>10)):
     print("hello")
 
