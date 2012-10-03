@@ -45,7 +45,7 @@ if (value > second_value and
 
 
 
-#Clearity is key. Større kode-eksempel
+#Clarity is key. Større kode-eksempel
 if person == "student" and person == "awesome":
     if age > 70:
         print("Something")
@@ -62,7 +62,7 @@ if isStudent(person) and isAwesome(student):
 if isStudent(person): print("Welcome")
 
 
-# Paranthesis are not always needed:
+# Parentheses are not always needed:
 if ((a>5) and (b>10)):
     print("hello")
 
