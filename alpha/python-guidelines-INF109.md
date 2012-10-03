@@ -1,5 +1,5 @@
 # Introduction
-Something something
+Store deler av denne artikkelen baserer seg på [PEP8 - Style Guide for Python Code](http://www.python.org/dev/peps/pep-0008/).
 
 Prøv å unngå indeker der det ikke er nødvendig
 ----------------------------------------------
@@ -72,33 +72,60 @@ if (value > second_value and
     ...
 ```
 
-
-Litt større kode-eksempel. Clarity is key
------------------------------------------
+Metoder er fint
+---------------
 
 ```python
-if person == "student" and person == "awesome":
-    if age > 70:
-        print("Something")
-
-
-def isStudent(person): return (person == "student")
-def isAwesome(person): return (person == "awesome")
-def isOld(age): return (age>70)
-
-if isStudent(person) and isAwesome(student):
-    if isOld(age):
-        print("Something")
-...
-if isStudent(person): print("Welcome")
-
+def allTheMethods()
+```
 
 Parentheses are not always needed
 ---------------------------------
+```python
 if ((a>5) and (b>10)):
     print("hello")
 
 if a>5 and b>10:
     print("hello")
+```
+
+Mellomrom og linjeskift
+-----------------------
+
+```python
+Yes: spam(1)
+No:  spam (1)
+
+Yes: dict['key'] = list[index]
+no:  dict ['key'] = list [index]
+```
+
+Småting
+-------
+
+i = i + 1
+i += 1
+i+=1
+i=i+1
+
+Litt større kode-eksempel. Clarity is key
+-----------------------------------------
+
+```python
+if person == "student" and student == "awesome":
+    if not age > 70:
+        print("Something")
+```
+
+```python
+def isStudent(person): return (person == "student")
+def isAwesome(person): return (person == "awesome")
+def isOld(age): return (age>70)
+
+if isStudent(person) and isAwesome(student):
+    if not isOld(age):
+        print("Something")
+...
+if isStudent(person): print("Welcome")
 ```
 
