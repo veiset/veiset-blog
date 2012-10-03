@@ -1,4 +1,4 @@
-
+# Prøv å unngå indeker der det ikke er nødvendig
 
 ```python
 verdier = [5,3,99,10]
@@ -64,8 +64,9 @@ if (value > second_value and
     ...
 ```
 
+
+# Litt større kode-eksempel. Clarity is key.
 ```python
-#Clarity is key. Større kode-eksempel
 if person == "student" and person == "awesome":
     if age > 70:
         print("Something")
