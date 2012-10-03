@@ -1,3 +1,5 @@
+
+
 ```python
 verdier = [5,3,99,10]
 for verdi in verdier:
@@ -8,7 +10,9 @@ for i in range(len(liste)):
     print(liste[i])
 ```
 
-# Hva som skal kommenteres, hvordan.
+# Metode dokumentasjon (docstrings)
+En grundig forklaring finnes på python sine [hjemmesider](http://www.python.org/dev/peps/pep-0257/) ...
+
 ```python
 def metode(argument):
     ''' Metode something something argument something '''
@@ -21,6 +25,8 @@ def metode(argument):
     '''
 ```
 
+# Bruk konstanter med fornuftig navn
+
 ```python
 def circleAreal(r):
     print(3.1415*r**2)
@@ -32,15 +38,19 @@ def circleAreal(r):
     print(pi*r**2)
 ```
 
+# True er implisitt, og 'not' er fint.
+
 ```python
 if condition == True:
-if condition:
+if condition != True:
 ```
 
 ```python
-if condition != True:
+if condition:
 if not condition:
 ```
+
+# Something something om nesting
 
 ```python
 if value > second_value and value != third_value and second_value > third_value:
