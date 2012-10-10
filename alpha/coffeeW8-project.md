@@ -4,6 +4,10 @@ CoffeeW8
 Web-interface for the Coffee machine located at the reading area of the 
 Institute of Informatics, at the University of Bergen.
 
+You can find the [source code](https://github.com/veiset/CoffeeW8) hosted
+publicly on github. Project by [@veiset](https://github.com/veiset) and
+[@HaskellElephant](https://github.com/HaskellElephant).
+
 Problem description
 -------------------
 
