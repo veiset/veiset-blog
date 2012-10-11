@@ -56,10 +56,12 @@ CoffeeW8 in action
 Worklog - Prototyping
 ---------------------
 
-We want to weight the coffee machine and figuring out how heavy it is, and thus if
-there is any liquid motivation (coffee) available for consumption. 
+Now, we spent hours discussing both the name and how to solve the problem. But after some thought
+we figured out that weighting the coffee machine and figuring out how heavy it is would give us a
+good indication on if there is any liquid motivation (coffee) available for consumption.
+That ended up being our very basic idea on how to solve the problem, and hence the name 'CoffeeW8' -> (CoffeeWeight, CoffeeWait). 
 
-What to do? Disassemble a kitchen weight, of course. Brilliant idea. I am quite sure we just voided the warranty.
+What to do? Disassemble a kitchen weight and connect it to a computer, of course. Brilliant idea. 
 
 ### Prototype 1 
 
@@ -69,6 +71,7 @@ when we did not applying force to the load-cell, 605 if we were, and 606 if
 we applied a lot of force.
 
 ![Prototype1](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/prototype1.png)
+
 
 ### Prototype 2
 
