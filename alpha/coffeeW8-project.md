@@ -65,7 +65,7 @@ there is any liquid motivation (coffee) available for consumption.
 What to do? Disassemble a kitchen weight, of course. Brilliant idea. I am quite sure we just voided the warranty.
 
 
-## Prototype 1 
+### Prototype 1 
 
 Our first working prototype, connected to the PC through a Phidget interface.
 It was not very good at doing measurements. It was giving us the value 605 
@@ -74,7 +74,7 @@ we applied a lot of force.
 
 ![Prototype1](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/prototype1.png)
 
-## Prototype 2
+### Prototype 2
 
 We had no clue what we were doing, so we had to hire in some help to design 
 the circuit for us. A few email later, and this was the result:
