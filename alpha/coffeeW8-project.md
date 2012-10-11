@@ -19,15 +19,11 @@ of informatics?
 
 ![Coffee pot](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/coffee_machine.png)
 
-Our idea
+Our goal 
 --------
-
-We want to weight the coffee machine and figuring out how heavy it is, and thus if
-there is any liquid motivation (coffee) available for consumption. 
-
-What to do? Disassemble a kitchen weight, of course. Brilliant idea. 
-I am quite sure we just voided the warranty.
-![Weight](https://lh4.googleusercontent.com/-2newWaUs4z0/UEdzPrPu7vI/AAAAAAAACcI/gCpc-Pmcq94/s1296/IMG_20120905_174252.jpg)
+Our goal is simple: Coffee awareness. People need to know when hot coffee available.
+Hot coffee turns grumpy people into happy people.
+![Happy drinkers](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/happy_drinkers.png)
 
 
 The technology behind
@@ -35,8 +31,13 @@ The technology behind
 
 Electronics -> Phidget -> Java -> Haskell -> MongoDB -> Ruby -> Javascript
 
-Progression
------------
+Worklog - Prototyping
+---------------------
+
+We want to weight the coffee machine and figuring out how heavy it is, and thus if
+there is any liquid motivation (coffee) available for consumption. 
+
+What to do? Disassemble a kitchen weight, of course. Brilliant idea. I am quite sure we just voided the warranty.
 
 Our first working prototype, connected to the PC through a Phidget interface.
 It was not very good at doing measurements. It was giving us the value 605 
@@ -69,3 +70,7 @@ Deployment
 
 In action
 ---------
+
+
+Contributors
+------------
