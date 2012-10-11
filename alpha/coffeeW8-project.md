@@ -2,20 +2,24 @@ CoffeeW8
 ========
 
 CoffeeW8, a web-interface for the coffee machine located at the reading area of the 
-Institute of Informatics, at the University of Bergen. Are you tired of walking to
-the coffee maker just to discover that there is no coffee left, or that the coffee
-that is left is cold? We, the CoffeeW8 team, are trying to solve precisely that 
-problem. No more walking without reason, no more disappointment, no more cold 
-coffee. With this brand new revolutionary, patented, in-the-cloud, open-source,
+Institute of Informatics, at the University of Bergen. 
+You can find the [source code](https://github.com/veiset/CoffeeW8) hosted
+publicly on github. Project by [@veiset](https://github.com/veiset) and
+[@HaskellElephant](https://github.com/HaskellElephant).
+
+Introduction
+------------
+
+Are you tired of walking to the coffee maker just to discover that there is no coffee 
+left, or that the coffee that is left is cold? We, the CoffeeW8 team, are trying to 
+solve precisely that problem. No more walking without reason, no more disappointment, 
+no more cold  coffee. With this brand new revolutionary, patented, in-the-cloud, open-source,
 web 2.0, buzzword, ajax, json, and practical solution you will always be the
 one who is there when the coffee is ready, and only be there when the coffee is 
 ready. 
 
 ![Coffee and Programming](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/coffee_and_programming.png) 
 
-You can find the [source code](https://github.com/veiset/CoffeeW8) hosted
-publicly on github. Project by [@veiset](https://github.com/veiset) and
-[@HaskellElephant](https://github.com/HaskellElephant).
 
 Problem description
 -------------------
@@ -88,6 +92,6 @@ In action
 Contributors
 ------------
 + [Vegard Veiset](https://github.com/veiset) - programming, design, electronics
-+ [Eivind Jahren](https://github.com/HaskellElephant)- programming, design, electronics
++ [Eivind Jahren](https://github.com/HaskellElephant) - programming, design, electronics
 
 
