@@ -43,7 +43,7 @@ Our first working prototype, connected to the PC through a Phidget interface.
 It was not very good at doing measurements. It was giving us the value 605 
 when we did not applying force to the load-cell, 605 if we were, and 606 if
 we applied a lot of force.
-![First working prototype](https://lh6.googleusercontent.com/-huSx9e1iCB8/UEefUFDSqQI/AAAAAAAACiw/Dh6FEEvpVUI/s1296/IMG_20120905_205014.jpg)
+![Prototype1](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/prototype1.png)
 
 We had no clue what we were doing, so we had to hire in some help to design 
 the circuit for us.
