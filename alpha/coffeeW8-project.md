@@ -54,7 +54,7 @@ connected load cell.
 ![Prototype2](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/prototype2.png)
 
 Cute cats and actual results
-![Results](https://lh6.googleusercontent.com/-pIGLVbaNEbg/UHGPpFVk7aI/AAAAAAAADKE/5zcwDlEJZOQ/s972/IMG_20121007_161913.jpg)
+![Cute cats and results](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/values_prototype2_screenshot.png)
 
 Location is key. Figuring out the optimal area for deployment is very
 important as informatics students tend to break anything they can get
