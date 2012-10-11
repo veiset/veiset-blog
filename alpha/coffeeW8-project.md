@@ -50,11 +50,8 @@ with the ability to communicate and socialize with their fellow students. Joy!
 
 ![Happy drinkers](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/happy_drinkers.png)
 
-
-The technology behind
----------------------
-
-Electronics -> Phidget -> Java -> Haskell -> MongoDB -> Ruby -> Javascript
+CoffeeW8 in action
+---------
 
 Worklog - Prototyping
 ---------------------
@@ -63,7 +60,6 @@ We want to weight the coffee machine and figuring out how heavy it is, and thus 
 there is any liquid motivation (coffee) available for consumption. 
 
 What to do? Disassemble a kitchen weight, of course. Brilliant idea. I am quite sure we just voided the warranty.
-
 
 ### Prototype 1 
 
@@ -91,8 +87,6 @@ Cute cats and actual results
 
 ![Cute cats and results](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/values_prototype2_screenshot.png)
 
-
-
 Deployment
 ----------
 
@@ -103,13 +97,15 @@ tempted to break it.
 
 ![Location is Key](https://lh5.googleusercontent.com/-VJWDo9LpVQg/UHGUm-76L6I/AAAAAAAADLs/1vceDCwSf4g/s972/IMG_20121007_164024.jpg)
 
+The technology behind
+---------------------
 
-In action
----------
+Electronics -> Phidget -> Java -> Haskell -> MongoDB -> Ruby -> Javascript
 
 
 Contributors
 ------------
+
 + [Vegard Veiset](https://github.com/veiset) - programming, design, electronics
 + [Eivind Jahren](https://github.com/HaskellElephant) - programming, design, electronics
 
@@ -117,7 +113,7 @@ Contributors
 Disclaimer
 ----------
 We, the CoffeeW8 team, is not to be held responsible if the CoffeeW8 achieves 
-sentience and start committing heinous crimes against such as, but not limited to:
+sentience and start committing heinous crimes against humanity such as, but not limited to:
 attaching lazers to sharks, creating an army of minion robots, and/or serving cold coffee. 
 The CoffeeW8 team does not endorse any attempts to summon Cthulu by such ancient rituals as
 brewing coffee with human blood, or similar misuse of the technology.
