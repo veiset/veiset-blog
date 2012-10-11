@@ -4,6 +4,8 @@ CoffeeW8
 Web-interface for the Coffee machine located at the reading area of the 
 Institute of Informatics, at the University of Bergen.
 
+![Coffee and Programming](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/coffee_and_programming.png) 
+
 You can find the [source code](https://github.com/veiset/CoffeeW8) hosted
 publicly on github. Project by [@veiset](https://github.com/veiset) and
 [@HaskellElephant](https://github.com/HaskellElephant).
@@ -15,8 +17,7 @@ We have our top scientists working twenty-four seven at solving the problem at
 hand; Is warm coffee available at the reading area / study hall of the institute
 of informatics? 
 
-![Coffee pot](https://lh5.googleusercontent.com/-Aw_DG2tbNiA/UEdubrThDCI/AAAAAAAACa8/3l3VF2lgjoU/s1296/IMG_20120905_172201.jpg)
-
+![Coffee pot](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/coffee_machine.png)
 
 Our idea
 --------
@@ -43,20 +44,17 @@ when we did not applying force to the load-cell, 605 if we were, and 606 if
 we applied a lot of force.
 ![First working prototype](https://lh6.googleusercontent.com/-huSx9e1iCB8/UEefUFDSqQI/AAAAAAAACiw/Dh6FEEvpVUI/s1296/IMG_20120905_205014.jpg)
 
-
 We had no clue what we were doing, so we had to hire in some help to design 
 the circuit for us.
 ![Expertise](https://raw.github.com/veiset/CoffeeW8/master/docs/veiecelle-diff-amp.gif)
 
-
 After following the schematics, stuff started to make sense and work. 
 Our sencond prototype was working, and giving the desired result for one
 connected load cell. 
-![On](https://lh3.googleusercontent.com/-D8EEIymfn8A/UHGMGbcWH9I/AAAAAAAADI4/Cco2YCkzaYU/s972/IMG_20121007_160356.jpg)
+![Prototype2](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/prototype2.png)
 
 Cute cats and actual results
 ![Results](https://lh6.googleusercontent.com/-pIGLVbaNEbg/UHGPpFVk7aI/AAAAAAAADKE/5zcwDlEJZOQ/s972/IMG_20121007_161913.jpg)
-
 
 Location is key. Figuring out the optimal area for deployment is very
 important as informatics students tend to break anything they can get
@@ -71,6 +69,3 @@ Deployment
 
 In action
 ---------
-
-
-
