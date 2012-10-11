@@ -30,10 +30,23 @@ of informatics?
 
 ![Coffee pot](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/coffee_machine.png)
 
+It is very important to ask the right questions:
+
++ Is there any coffee ready to be consumed by thirsty students?  
++ Is the coffee warm?
++ How many minutes do I have before it is all gone?
+
+If and only if we are able to answers the questions with: 
+yes, yes, "minutes are equal to, or less than the time it would take to arrive at the coffee maker"
+are we interested in the current batch of coffee. We might then, after careful
+evaluation consider walking to the coffee maker and grab a cup of coffee.
+
+
 Our goal 
 --------
 Our goal is simple: Coffee awareness. People need to know when hot coffee available.
-Hot coffee turns grumpy people into happy people.
+Hot, free and delicious coffee turns grumpy informatics students into happy people 
+with the ability to communicate and socialize with their fellow students. Joy!
 
 ![Happy drinkers](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/happy_drinkers.png)
 
