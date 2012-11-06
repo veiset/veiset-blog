@@ -63,7 +63,7 @@ That ended up being our very basic idea on how to solve the problem, and hence t
 
 What to do? Disassemble a kitchen weight and connect it to a computer, of course. Brilliant idea. 
 
-### Prototype 1 
+### Prototype 1 - What are we doing?
 
 Our first working prototype, connected to the PC through a Phidget interface.
 It was not very good at doing measurements. It was giving us the value 605 
@@ -73,7 +73,7 @@ we applied a lot of force.
 ![Prototype1](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/prototype1.png)
 
 
-### Prototype 2
+### Prototype 2 - Hope!
 
 We had no clue what we were doing, so we had to hire in some help to design 
 the circuit for us. A few email later, and this was the result:
@@ -81,7 +81,7 @@ the circuit for us. A few email later, and this was the result:
 ![Expertise](https://raw.github.com/veiset/CoffeeW8/master/docs/veiecelle-diff-amp.gif)
 
 After following the schematics, stuff started to make sense and work. 
-Our sencond prototype was working, and giving the desired result for one
+Our second prototype was working, and giving the desired result for one
 connected load cell. 
 
 ![Prototype2](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/prototype2.png)
@@ -90,6 +90,21 @@ Cute cats and actual results
 
 ![Cute cats and results](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/values_prototype2_screenshot.png)
 
+Stuff were looking really good and we were full of joy and hope. We connected the 
+four load-cells in series and put them together in the original kitchen weight chassis.
+We then calibrated the circuit and started taking measurements. 
+Low-value 80, high-value 500. Awesome! The value when not putting pressure on 
+the weight was on a stable 80... 81, 90? 85? What. After some investigation
+we concluded with the sad truth: The USB output voltage from the Phidget
+analog output was not 100.0000% stable, causing our fragile circuit to
+behave strangely. 
+
+### Prototype 3 - Fuck it.
+
+Possible solution:
+![Phidget pre-made load-cell](http://www.phidgets.com/images/3100_0_Functional_Web.jpg)
+
+ 
 Deployment
 ----------
 
