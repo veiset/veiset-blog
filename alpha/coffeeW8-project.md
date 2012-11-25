@@ -101,8 +101,16 @@ behave strangely.
 
 ### Prototype 3 - Fuck it.
 
-Possible solution:
+The easy way out:
 ![Phidget pre-made load-cell](http://www.phidgets.com/images/3100_0_Functional_Web.jpg)
+
+Prototype in action, with results good enough to differentiate between coffee 
+and no coffee, with around 50 steps (~2kg/~50 = 40g).
+
+
+![Prototype 3 in action](https://lh6.googleusercontent.com/-axEyCwswjT4/ULI6cbKDvPI/AAAAAAAAElM/_OMY3CEicY4/s960/IMG_20121125_163216.jpg)
+
+...
 
  
 Deployment
@@ -124,9 +132,9 @@ Electronics -> Phidget -> Java -> Haskell -> MongoDB -> Ruby -> Javascript
 Contributors
 ------------
 
-+ [Vegard Veiset](https://github.com/veiset) - programming, design, electronics
-+ [Eivind Jahren](https://github.com/HaskellElephant) - programming, design, electronics
-
++ [Vegard Veiset](https://github.com/veiset) - programming, design, electronics, infrastructure 
++ [Eivind Jahren](https://github.com/HaskellElephant) - programming, design, electronics, DBO
++ [Alexander Hoem Rosbach](https://github.com/mapster) - java axiom testing, code review
 
 Disclaimer
 ----------
