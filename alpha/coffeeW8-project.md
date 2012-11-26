@@ -52,6 +52,7 @@ with the ability to communicate and socialize with their fellow students. Joy!
 
 CoffeeW8 in action
 ---------
+![CoffeeW8 CoffeMaker graph](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/test_first_real_data.png)
 
 Worklog - Prototyping
 ---------------------
