@@ -13,12 +13,16 @@ Introduction
 Are you tired of walking to the coffee maker just to discover that there is no coffee 
 left, or that the coffee that is left is cold? We, the CoffeeW8 team, are trying to 
 solve precisely that problem. No more walking without reason, no more disappointment, 
-no more cold  coffee. With this brand new revolutionary, patented, in-the-cloud, open-source,
+no more cold coffee. With this brand new revolutionary, patented, in-the-cloud, open-source,
 web 2.0, buzzword, ajax, json, and practical solution you will always be the
 one who is there when the coffee is ready, and only be there when the coffee is 
 ready. This way you can stay sharp and focus on doing important and fun stuff: coding.
 
-![Coffee and Programming](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/coffee_and_programming.png) 
+To satisfy our customers (i.e our selves) we are using a [Phidget Interfacekit
+8/8/8](http://www.phidgets.com/products.php?category=0&product_id=1018_2) connected to
+a [Raspberry Pi](http://www.raspberrypi.org/) to provide precise and accurate measurements of 
+the actual weight of the coffee maker.
+![Baking Pie](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/compiling_phidget.png)
 
 
 Problem description
@@ -87,10 +91,6 @@ connected load cell.
 
 ![Prototype2](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/prototype2.png)
 
-Cute cats and actual results
-
-![Cute cats and results](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/values_prototype2_screenshot.png)
-
 Stuff were looking really good and we were full of joy and hope. We connected the 
 four load-cells in series and put them together in the original kitchen weight chassis.
 We then calibrated the circuit and started taking measurements. 
@@ -122,7 +122,7 @@ important as informatics students tend to break anything they can get
 their hands on. We should hide it so that other students will not be
 tempted to break it.
 
-![Location is Key](https://lh5.googleusercontent.com/-VJWDo9LpVQg/UHGUm-76L6I/AAAAAAAADLs/1vceDCwSf4g/s972/IMG_20121007_164024.jpg)
+![Deployment Box](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/box.png)
 
 The technology behind
 ---------------------
@@ -133,7 +133,7 @@ Electronics -> Phidget -> Java -> Haskell -> MongoDB -> Ruby -> Javascript
 Contributors
 ------------
 
-+ [Vegard Veiset](https://github.com/veiset) - programming, design, electronics, infrastructure 
++ [Vegard Veiset](https://github.com/veiset) - programming, design, electronics, infrastructure, installation 
 + [Eivind Jahren](https://github.com/HaskellElephant) - programming, design, electronics, DBO
 + [Alexander Hoem Rosbach](https://github.com/mapster) - java axiom testing, code review
 
