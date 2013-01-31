@@ -6,20 +6,20 @@ Institute of Informatics, at the University of Bergen.
 You can find the [source code](https://github.com/veiset/CoffeeW8) hosted
 publicly on github. Project by [@veiset](https://github.com/veiset) and
 [@HaskellElephant](https://github.com/HaskellElephant).
-You can find the [current state off coffee available online](http://coffee.veiset.org/).
 
-Index
+You can find a simple implementation of the CoffeeW8-API in action at [coffee.veiset.org](http://coffee.veiset.org/). 
+
+Table of Contents
 -----
-* [Introduction](#introduction)
-* [Problem Description](#problem-description)
-* [Our Goal](#our-goal)
-* [Deployment](#deployment)
-* [CoffeeW8 in action](#coffeew8-in-action)
-* [The Technology Behind](#the-technology-behind)
-* [Contributors](#contributors)
-* [Disclaimer](#disclaimer)
-
-* [Worklog](#worklog)
+* [1 - Introduction](#introduction)
+* [2 - Problem Description](#problem-description)
+* [3 - Our Goal](#our-goal)
+* [4 - Deployment](#deployment)
+* [5 - CoffeeW8 in action](#coffeew8-in-action)
+* [6 - The Technology Behind](#the-technology-behind)
+* [7 - Contributors](#contributors)
+* [8 - Disclaimer](#disclaimer)
+* [Appendix - Worklog](#worklog)
 
 
 Introduction
@@ -46,8 +46,6 @@ Problem description
 We have our top scientists working twenty-four seven at solving the problem at
 hand; Is warm coffee available at the reading area / study hall of the institute
 of informatics? 
-
-![Coffee pot](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/coffee_machine.png)
 
 It is very important to ask the right questions:
 
@@ -78,13 +76,32 @@ important as informatics students tend to break anything they can get
 their hands on. We should hide it so that other students will not be
 tempted to break it.
 
+The first thing was to test that the sensor actually worked. This was done by 
+hooking the sensor up to a laptop, and simply placing the sensor underneath the
+coffee maker. This was a success, and we were able to measure a difference in steps
+of about 50 grams.
+![Initial test of sensor](https://lh6.googleusercontent.com/-axEyCwswjT4/ULI6cbKDvPI/AAAAAAAAElM/_OMY3CEicY4/s960/IMG_20121125_163216.jpg)
+
+We hoped that putting the sensor between two glass plates would increase the 
+precision and stability of the measurements. We were mistaken, the point of
+pressure was very easily changed, and the measurements were very unstable because
+of the shift in weight (taking the coffee pot on and off).
 ![Deployment Box](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/box.png)
+
+We ended using duct tape to attach the sensor to underneath one of the coffee
+makers legs. This is what currently is in use, and is still kind of unstable but
+this will give us a decent indication of when there is coffee.
 ![Location](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/deployed.png)
+
+We first tried to use a wireless network chip for the Raspberry Pi, this required
+too much power and was very unstable. We ended up using a wireless router as a 
+bridge for an ethernet connection.
 
 CoffeeW8 in action
 ------------------
-[CoffeeW8 in action](http://coffee.veiset.org/)
 ![CoffeeW8 CoffeMaker graph](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/test_first_real_data.png)
+
+You can find a simple implementation of the CoffeeW8-API in action at [coffee.veiset.org](http://coffee.veiset.org/). 
 
 The Technology Behind
 ---------------------
@@ -92,6 +109,7 @@ The Technology Behind
 Electronics -> Phidget -> Java -> Haskell -> MongoDB -> Ruby -> Javascript
 
 List of requirements needed to replicate the implementation:
+```
  + Phidget Interfacekit 8/8/8
  + Phidget Weight Sensor
  + Device capable of
@@ -104,6 +122,7 @@ List of requirements needed to replicate the implementation:
    > Haskell (Used to fetch data from client)
  + Coffee Maker
  + Duct tape (no, I am not joking)
+```
 
 Contributors
 ------------
@@ -119,6 +138,7 @@ sentience and start committing heinous crimes against humanity such as, but not 
 attaching lazers to sharks, creating an army of minion robots, and/or serving cold coffee. 
 The CoffeeW8 team does not endorse any attempts to summon Cthulu by such ancient rituals as
 brewing coffee with human blood, or similar misuse of the technology.
+
 
 
 
@@ -172,8 +192,5 @@ The easy way out:
 
 Prototype in action, with results good enough to differentiate between coffee 
 and no coffee, with around 50 steps (~2kg/~50 = 40g).
-
-
-![Prototype 3 in action](https://lh6.googleusercontent.com/-axEyCwswjT4/ULI6cbKDvPI/AAAAAAAAElM/_OMY3CEicY4/s960/IMG_20121125_163216.jpg)
 
 
