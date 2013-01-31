@@ -72,6 +72,13 @@ with the ability to communicate and socialize with their fellow students. Joy!
 Solution
 --------
 
+By using the Raspberry Pi in conjunction with an Phidget sensor kit we were able to 
+create a weighing client which reads the weight from the Phidget weight sensor kit and
+supplies a simple REST-API. This is querried by the webserver through the university's
+VPN network and stored in a MongoDB database. The data from the MongoDB database is 
+available both as a web API and as a webpage displaying a helpful graph.
+
+
 ![Deployment Box](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/box.png)
 
 Deployment
@@ -133,7 +140,7 @@ Contributors
 ------------
 
 + [Vegard Veiset](https://github.com/veiset) - programming (java, ruby, javascript), design, electronics, infrastructure, installation 
-+ [Eivind Jahren](https://github.com/HaskellElephant) - programming (haskell), design, electronics, DBO (mongoDB)
++ [Eivind Jahren](https://github.com/HaskellElephant) - programming (haskell), design, electronics, DBO (MongoDB)
 + [Alexander Hoem Rosbach](https://github.com/mapster) - axiom testing (java), code review
 
 Disclaimer
