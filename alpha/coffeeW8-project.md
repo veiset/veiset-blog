@@ -14,11 +14,12 @@ Table of Contents
 * [1 - Introduction](#introduction)
 * [2 - Problem Description](#problem-description)
 * [3 - Our Goal](#our-goal)
-* [4 - Deployment](#deployment)
-* [5 - CoffeeW8 in action](#coffeew8-in-action)
-* [6 - The Technology Behind](#the-technology-behind)
-* [7 - Contributors](#contributors)
-* [8 - Disclaimer](#disclaimer)
+* [4 - Solution](#solution)
+* [5 - Deployment](#deployment)
+* [6 - CoffeeW8 in action](#coffeew8-in-action)
+* [7 - The Technology Behind](#the-technology-behind)
+* [8 - Contributors](#contributors)
+* [9 - Disclaimer](#disclaimer)
 * [Appendix - Worklog](#worklog)
 
 
@@ -68,6 +69,11 @@ with the ability to communicate and socialize with their fellow students. Joy!
 
 ![Happy drinkers](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/happy_drinkers.png)
 
+Solution
+--------
+
+![Deployment Box](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/box.png)
+
 Deployment
 ----------
 
@@ -83,10 +89,9 @@ of about 50 grams.
 ![Initial test of sensor](https://lh6.googleusercontent.com/-axEyCwswjT4/ULI6cbKDvPI/AAAAAAAAElM/_OMY3CEicY4/s960/IMG_20121125_163216.jpg)
 
 We hoped that putting the sensor between two glass plates would increase the 
-precision and stability of the measurements. We were mistaken, the point of
-pressure was very easily changed, and the measurements were very unstable because
-of the shift in weight (taking the coffee pot on and off).
-![Deployment Box](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/box.png)
+precision and stability of the measurements. We were mistaken and the point of
+pressure was very easily changed. The measurements were very inconsistent because
+of the shift in weight that taking the coffee pot on and off would cause.
 
 We ended using duct tape to attach the sensor to underneath one of the coffee
 makers legs. This is what currently is in use, and is still kind of unstable but
