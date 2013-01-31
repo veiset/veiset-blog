@@ -48,15 +48,28 @@ evaluation consider walking to the coffee maker and grab a cup of coffee.
 
 Our goal 
 --------
+
 Our goal is simple: Coffee awareness. People need to know when hot coffee available.
 Hot, free and delicious coffee turns grumpy informatics students into happy people 
 with the ability to communicate and socialize with their fellow students. Joy!
 
 ![Happy drinkers](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/happy_drinkers.png)
 
+Deployment
+----------
+
+Location is key. Figuring out the optimal area for deployment is very
+important as informatics students tend to break anything they can get
+their hands on. We should hide it so that other students will not be
+tempted to break it.
+
+![Deployment Box](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/box.png)
+![Location](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/deployed.png)
+
 CoffeeW8 in action
 ---------
 ![CoffeeW8 CoffeMaker graph](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/test_first_real_data.png)
+
 
 Worklog - Prototyping
 ---------------------
@@ -114,28 +127,32 @@ and no coffee, with around 50 steps (~2kg/~50 = 40g).
 ...
 
  
-Deployment
-----------
-
-Location is key. Figuring out the optimal area for deployment is very
-important as informatics students tend to break anything they can get
-their hands on. We should hide it so that other students will not be
-tempted to break it.
-
-![Deployment Box](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/box.png)
 
 The technology behind
 ---------------------
 
 Electronics -> Phidget -> Java -> Haskell -> MongoDB -> Ruby -> Javascript
 
+List of requirements needed to replicate the implementation:
+ + Phidget Interfacekit 8/8/8
+ + Phidget Weight Sensor
+ + Device capable of
+   > using the Phidget Interfacekit
+   > running Java 
+   > hosting a simple java-based web API
+ + A server with
+   > MongoDB (Database)
+   > Sinatra (Webserver)
+   > Haskell (Used to fetch data from client)
+ + Coffee Maker
+ + Duct tape (no, I am not joking)
 
 Contributors
 ------------
 
-+ [Vegard Veiset](https://github.com/veiset) - programming, design, electronics, infrastructure, installation 
-+ [Eivind Jahren](https://github.com/HaskellElephant) - programming, design, electronics, DBO
-+ [Alexander Hoem Rosbach](https://github.com/mapster) - java axiom testing, code review
++ [Vegard Veiset](https://github.com/veiset) - programming (java, ruby, javascript), design, electronics, infrastructure, installation 
++ [Eivind Jahren](https://github.com/HaskellElephant) - programming (haskell), design, electronics, DBO (mongoDB)
++ [Alexander Hoem Rosbach](https://github.com/mapster) - axiom testing (java), code review
 
 Disclaimer
 ----------
