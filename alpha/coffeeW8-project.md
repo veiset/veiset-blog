@@ -6,6 +6,21 @@ Institute of Informatics, at the University of Bergen.
 You can find the [source code](https://github.com/veiset/CoffeeW8) hosted
 publicly on github. Project by [@veiset](https://github.com/veiset) and
 [@HaskellElephant](https://github.com/HaskellElephant).
+You can find the [current state off coffee available online](http://coffee.veiset.org/).
+
+Index
+-----
+* [Introduction](#introduction)
+* [Problem Description](#problem-description)
+* [Our Goal](#our-goal)
+* [Deployment](#deployment)
+* [CoffeeW8 in action](#coffeew8-in-action)
+* [The Technology Behind](#the-technology-behind)
+* [Contributors](#contributors)
+* [Disclaimer](#disclaimer)
+
+* [Worklog](#worklog)
+
 
 Introduction
 ------------
@@ -46,7 +61,7 @@ are we interested in the current batch of coffee. We might then, after careful
 evaluation consider walking to the coffee maker and grab a cup of coffee.
 
 
-Our goal 
+Our goal
 --------
 
 Our goal is simple: Coffee awareness. People need to know when hot coffee available.
@@ -67,19 +82,56 @@ tempted to break it.
 ![Location](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/deployed.png)
 
 CoffeeW8 in action
----------
+------------------
+[CoffeeW8 in action](http://coffee.veiset.org/)
 ![CoffeeW8 CoffeMaker graph](https://raw.github.com/veiset/veiset-blog/master/static/img/coffeeW8-project/test_first_real_data.png)
 
-
-Worklog - Prototyping
+The Technology Behind
 ---------------------
+
+Electronics -> Phidget -> Java -> Haskell -> MongoDB -> Ruby -> Javascript
+
+List of requirements needed to replicate the implementation:
+ + Phidget Interfacekit 8/8/8
+ + Phidget Weight Sensor
+ + Device capable of
+   > using the Phidget Interfacekit
+   > running Java 
+   > hosting a simple java-based web API
+ + A server with
+   > MongoDB (Database)
+   > Sinatra (Webserver)
+   > Haskell (Used to fetch data from client)
+ + Coffee Maker
+ + Duct tape (no, I am not joking)
+
+Contributors
+------------
+
++ [Vegard Veiset](https://github.com/veiset) - programming (java, ruby, javascript), design, electronics, infrastructure, installation 
++ [Eivind Jahren](https://github.com/HaskellElephant) - programming (haskell), design, electronics, DBO (mongoDB)
++ [Alexander Hoem Rosbach](https://github.com/mapster) - axiom testing (java), code review
+
+Disclaimer
+----------
+We, the CoffeeW8 team, is not to be held responsible if the CoffeeW8 achieves 
+sentience and start committing heinous crimes against humanity such as, but not limited to:
+attaching lazers to sharks, creating an army of minion robots, and/or serving cold coffee. 
+The CoffeeW8 team does not endorse any attempts to summon Cthulu by such ancient rituals as
+brewing coffee with human blood, or similar misuse of the technology.
+
+
+
+Worklog
+-------
 
 Now, we spent hours discussing both the name and how to solve the problem. But after some thought
 we figured out that weighting the coffee machine and figuring out how heavy it is would give us a
 good indication on if there is any liquid motivation (coffee) available for consumption.
 That ended up being our very basic idea on how to solve the problem, and hence the name 'CoffeeW8' -> (CoffeeWeight, CoffeeWait). 
-
 What to do? Disassemble a kitchen weight and connect it to a computer, of course. Brilliant idea. 
+
+[Full pictures worklog from prototype 1 and 2](https://github.com/veiset/CoffeeW8/wiki/worklog).
 
 ### Prototype 1 - What are we doing?
 
@@ -124,40 +176,4 @@ and no coffee, with around 50 steps (~2kg/~50 = 40g).
 
 ![Prototype 3 in action](https://lh6.googleusercontent.com/-axEyCwswjT4/ULI6cbKDvPI/AAAAAAAAElM/_OMY3CEicY4/s960/IMG_20121125_163216.jpg)
 
-...
 
- 
-
-The technology behind
----------------------
-
-Electronics -> Phidget -> Java -> Haskell -> MongoDB -> Ruby -> Javascript
-
-List of requirements needed to replicate the implementation:
- + Phidget Interfacekit 8/8/8
- + Phidget Weight Sensor
- + Device capable of
-   > using the Phidget Interfacekit
-   > running Java 
-   > hosting a simple java-based web API
- + A server with
-   > MongoDB (Database)
-   > Sinatra (Webserver)
-   > Haskell (Used to fetch data from client)
- + Coffee Maker
- + Duct tape (no, I am not joking)
-
-Contributors
-------------
-
-+ [Vegard Veiset](https://github.com/veiset) - programming (java, ruby, javascript), design, electronics, infrastructure, installation 
-+ [Eivind Jahren](https://github.com/HaskellElephant) - programming (haskell), design, electronics, DBO (mongoDB)
-+ [Alexander Hoem Rosbach](https://github.com/mapster) - axiom testing (java), code review
-
-Disclaimer
-----------
-We, the CoffeeW8 team, is not to be held responsible if the CoffeeW8 achieves 
-sentience and start committing heinous crimes against humanity such as, but not limited to:
-attaching lazers to sharks, creating an army of minion robots, and/or serving cold coffee. 
-The CoffeeW8 team does not endorse any attempts to summon Cthulu by such ancient rituals as
-brewing coffee with human blood, or similar misuse of the technology.
