@@ -1,5 +1,5 @@
-CoffeeW8
-========
+The CoffeeW8 Project
+====================
 
 CoffeeW8, a web-interface for the coffee machine located at the reading area of the 
 Institute of Informatics, at the University of Bergen. 
