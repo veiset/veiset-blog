@@ -7,7 +7,6 @@ You can find the [source code](https://github.com/veiset/CoffeeW8) hosted
 publicly on github. Project by [@veiset](https://github.com/veiset) and
 [@HaskellElephant](https://github.com/HaskellElephant).
 
-You can find a simple implementation of the CoffeeW8-API in action at [coffee.veiset.org](http://coffee.veiset.org/). 
 
 Table of Contents
 -----
